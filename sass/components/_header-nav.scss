@@ -24,7 +24,7 @@
 
     &:hover,
     &:focus,
-    .current {
+    &.current {
         color: $color-brand;
     }
 
