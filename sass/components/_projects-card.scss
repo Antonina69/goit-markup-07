@@ -41,17 +41,18 @@
     .projects-card__link:hover & {
         transform: translatey(0);
     }
+}
 
-    .projects-card__text {
+.projects-card__text {
         font-size: 18px;
         font-weight: 400;
-        line-height: 28px;
+        line-height: 1.55;
         letter-spacing: 0.03em;
         text-align: left;
-        color: #FFF;
+        color: $color-light;
 
     }
-}
+   
 
 
 .projects-card__title {
@@ -64,6 +65,7 @@
     color: $color-primary;
 
 }
+
 
 .projects-card__type {
     font-size: 16px;
