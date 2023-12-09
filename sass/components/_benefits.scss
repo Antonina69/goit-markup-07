@@ -1,14 +1,10 @@
 .benefits__list {
     display: flex;
     align-items: flex-start;
-
-
 }
 
 .benefits__item:not(:last-child) {
     margin-right: 30px;
-
-   
 }
 
 .benefits__thumb {
