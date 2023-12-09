@@ -26,8 +26,9 @@
     &:focus {
         color: $color-brand;
     }
+}
     
-    &--current::after {
+.header-nav__link-current::after {
         content: "";
         position: absolute;
         bottom: 0;
@@ -39,7 +40,8 @@
         border-radius: 2px;
 
     }
-}
-.header-nav__link--current {
+
+.header-nav__link-current {
+    @extend .header-nav__link;
     color: $color-brand;
 }
